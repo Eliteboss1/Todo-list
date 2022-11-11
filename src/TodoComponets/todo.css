@@ -1,0 +1,81 @@
+.todo {
+  max-width: 80%;
+  margin: 0 auto;
+}
+.container {
+  border: 1px solid grey;
+  margin-top: 50px;
+}
+.inside {
+  margin-left: 20px;
+  min-width: 80%;
+}
+.header {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.focus:focus-visible {
+  outline: 1px solid rgb(119, 119, 253);
+}
+
+.content > input {
+  width: 94%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border: 1px solid rgb(74, 74, 250);
+  height: 25px;
+  outline: none;
+  font-size: 15px;
+  padding-left: 10px;
+  box-shadow: -3px 1px 33px -3px rgba(140, 130, 250, 0.75);
+  -webkit-box-shadow: -3px 1px 33px -3px rgba(140, 130, 250, 0.75);
+  -moz-box-shadow: -3px 1px 33px -3px rgba(140, 130, 250, 0.75);
+}
+.filling {
+  display: flex;
+  padding: 10px 0px 10px 0px;
+}
+.Vertical {
+  padding-left: 10px;
+}
+.txt {
+  margin-left: 10px;
+  color: black;
+}
+footer {
+  background-color: rgb(225, 255, 179);
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  border: 0.1px solid rgb(226, 224, 224);
+}
+.icons {
+  display: flex;
+  padding: 10px 0px 10px 15px;
+}
+.rightSide {
+  padding: 10px 0px 10px 0px;
+}
+.ftxt {
+  margin-left: 15px;
+}
+.all {
+  margin-right: 35px;
+  cursor: pointer;
+}
+.active {
+  margin-right: 30px;
+  cursor: pointer;
+}
+.complected {
+  margin-right: 20px;
+  cursor: pointer;
+}
